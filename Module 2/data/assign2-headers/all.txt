@@ -1,0 +1,32 @@
+Q1: article-ids.csv
+Article_Name,Article_ID
+
+Q2: category-ids.csv
+Category_Name,Category_ID
+
+Q3: article-categories.csv
+Article_ID,Category_ID
+
+Q4: edges.csv 
+From_ArticleID,To_ArticleID
+
+Q5: graph-components.csvf
+Nodes,Edges,Diameter
+
+Q6: finished-paths-back.csv, finished-paths-no-back.csv
+Human_Path_Length,Shortest_Path_Length,Ratio
+
+Q7: percentage-paths-back.csv, percentage-paths-no-back.csv
+Equal_Length,Larger_by_1,Larger_by_2,Larger_by_3,Larger_by_4,Larger_by_5,Larger_by_6,Larger_by_7,Larger_by_8,Larger_by_9,Larger_by_10,Larger_by_more_than_10
+
+Q8: category-paths.csv
+Category_ID,Number_of_paths_traversed,Number_of_times_traversed
+
+Q9: category-subtree-paths.csv
+Category_ID,Number_of_paths_traversed,Number_of_times_traversed
+
+Q10: category-pairs.csv 
+From_Category,To_Category,Percentage_of_finished_paths,Percentage_of_unfinished_paths
+
+Q11: category-ratios.csv 
+From_Category,To_Category,Ratio_of_human_to_shortest
